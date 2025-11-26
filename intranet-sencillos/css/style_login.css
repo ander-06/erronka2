@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #fbcfe8, #f472b6); /* rosita suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 18px rgba(236, 72, 153, 0.3);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #be185d;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #fbcfe8;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ec4899;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    width: 100%;
+    background: #ec4899;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #db2777;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #be185d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

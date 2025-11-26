@@ -1,0 +1,2 @@
+function validateLogin(){ let u=document.getElementById('username').value; let p=document.getElementById('password').value; if(u==''||p==''){ alert('Por favor, completa todos los campos'); return false;} return true;}
+function validateRegister(){ let u=document.getElementById('reg_username').value; let p=document.getElementById('reg_password').value; if(u==''||p==''){ alert('Por favor, completa todos los campos'); return false;} if(p.length<6){ alert('La contraseña debe tener al menos 6 caracteres'); return false;} return true;}
